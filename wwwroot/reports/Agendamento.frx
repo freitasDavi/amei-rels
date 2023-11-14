@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="11/13/2023 20:59:09" ReportInfo.Modified="11/13/2023 20:59:09" ReportInfo.CreatorVersion="2023.3.11.0">
+  <Dictionary>
+    <BusinessObjectDataSource Name="listaAgendamento" ReferenceName="listaAgendamento" DataType="System.Collections.Generic.List`1[[AmeiRel.Models.Agendamentos, AmeiRel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]" Enabled="true">
+      <Column Name="NomeAgendamento" DataType="System.String"/>
+      <Column Name="DataAgendamento" DataType="System.DateTime"/>
+      <Column Name="EnderecoAgendamento" DataType="System.String"/>
+      <Column Name="ResponsavelAgendamento" DataType="System.String"/>
+      <Column Name="TelefoneAgendamento" DataType="System.String"/>
+      <Column Name="TelefoneSecundario" DataType="System.String"/>
+      <Column Name="UsuarioAgendamento" DataType="AmeiRel.Models.User, AmeiRel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Column Name="Id" DataType="System.Int64"/>
+      </Column>
+      <Column Name="Id" DataType="System.Int64"/>
+    </BusinessObjectDataSource>
+  </Dictionary>
+</Report>
